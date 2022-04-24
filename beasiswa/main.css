@@ -1,0 +1,134 @@
+/*
+      Created by Keith Donegan of Code-Sucks.com
+	  
+	  E-Mail: Keithdonegan@gmail.com
+	  
+	  You can do whatever you want with these layouts,
+	  but it would be greatly appreciated if you gave a link
+	  back to http://www.code-sucks.com
+	  
+*/
+
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+}
+#wrapper { 
+ margin: 0 auto;
+ width: 922px;
+
+}
+#header {
+ color: #FFFFFF;
+ width: 900px;
+ float: left;
+ padding: 10px;
+ border-bottom: 1px solid #ccc;
+ height: 100px;
+ margin: 10px 0px 0px 0px;
+ background-image:url(images/header.jpg);
+}
+#leftcolumn { 
+ color: #333;
+ background: #FFFFFF;
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ height: 100%;
+ width: 200px;
+ float: left;
+}
+#menu {
+	width: 200px;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#menu li {
+	width: 200px;
+	border-bottom: 1px solid #969BA5;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: bottom; 
+}
+#menu a:link, #menu a:visited {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 12px solid #D3D3D2;
+	border-right: 1px solid #D3D3D2;
+	background-color: #0099FF;
+	color: #D3D3D2;
+	text-decoration: none;
+}
+#menu a:hover {
+	background-color: #0099CC;
+	color: #FFFFFF;
+}
+
+a:link,a:visited {
+  color:#256180;
+}
+a:hover {
+	color: #FF6600;
+	text-decoration:none;
+}
+h2 {
+	font: normal 120% Georgia;
+	color: #265180;
+	background-color: transparent;
+	border-bottom: 1px dotted #265180;
+}
+table {
+	font-family: Tahoma; 
+	font-size: 8pt;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	border-collapse: collapse;
+	margin: 10px 0px;
+}
+th{
+	color: #FFFFFF;
+	font-size: 7pt;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.5em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+	background-color: #0000FF;
+}
+td{
+	padding: 0.5em;
+	vertical-align: top;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+}
+
+#rightcolumn { 
+ float: right;
+ color: #333;
+ background: #FFFFFF;
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ height: 100%;
+ width: 678px;
+ display: inline;
+}
+#footer { 
+ width: 900px;
+ clear: both;
+ color: #000000;
+ border: 1px solid #ccc;
+ background: #D3D3D2;
+ margin: 0px 0px 10px 0px;
+ padding: 10px;
+}
